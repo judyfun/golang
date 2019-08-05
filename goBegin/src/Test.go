@@ -12,7 +12,7 @@ const (
 
 var (
 	plat int
-	cap  string
+	cap1  string
 )
 
 type (
