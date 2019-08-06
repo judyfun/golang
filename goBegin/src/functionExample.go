@@ -25,6 +25,36 @@ func main() {
 	/*a := funcType
 	a()*/
 
+	//anonymousFunc()
+	in := Increase()
+	fmt.Println(in())
+	fmt.Println(in())
+
+}
+
+/**
+闭包作为函数的返回值
+ */
+func Increase() func() int {
+	n := 0
+	return func() int {
+		n++
+		return n
+	}
+}
+
+
+func anonymousFunc() {
+	var f = func(int) {}
+	f = func(i int) {
+		fmt.Println(i)
+	}
+	f(2)
+
+	f = func(i int) {
+		fmt.Println(i * i * i)
+	}
+	f(2)
 }
 
 /**
