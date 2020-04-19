@@ -5,7 +5,6 @@
 .project
 .settings
 .idea
-.vertx
 .yardoc
 .yardopts
 build
