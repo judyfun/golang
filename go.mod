@@ -1,3 +1,3 @@
 module github.com/judyfun/golang
 
-go 1.14
+go 1.17
