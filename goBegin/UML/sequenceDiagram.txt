@@ -1,0 +1,5 @@
+@startuml
+!$a=12
+
+Alice -> Bob: test $a
+@enduml
